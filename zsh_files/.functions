@@ -9,3 +9,12 @@ function mkd() {
 function traceroute-mapper {
   open "https://stefansundin.github.io/traceroute-mapper/?trace=$(traceroute -q1 $*)"
 }
+
+function cs()
+{
+  if [ $# -eq 0 ]; then
+    cd && ls
+  else
+    cd "$*" && ls
+  fi
+}

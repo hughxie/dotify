@@ -1,7 +1,6 @@
 [user]
-	name = Aditya Sharma
-	email = git@adi.run
-	signingKey = 9C2F550E36E32C3C
+	name = Hugh Xie
+	email = hughxie@outlook.com
 
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
@@ -12,9 +11,6 @@
 	excludesfile = ~/.gitignore
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	commitGraph = true
-
-[commit]
-	gpgsign = true
 
 [web]
 	browser = safari
