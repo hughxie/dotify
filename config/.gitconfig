@@ -1,7 +1,6 @@
 [user]
-	name = Aditya Sharma
-	email = git@adi.run
-	signingKey = 9C2F550E36E32C3C
+	name = Hugh Xie
+	email = hughxie@outlook.com
 
 [core]
 	editor = nano
@@ -9,9 +8,6 @@
 	excludesfile = ~/.gitignore
 	commitGraph = true
 	pager = diff-so-fancy | less --tabs=4 -RFX
-
-[commit]
-	gpgsign = true
 
 [web]
 	browser = chrome

@@ -1,14 +1,14 @@
 # shellcheck disable=SC2034
-DEFAULT_USER=adi
+DEFAULT_USER=hugh
 
-export ZSH="/Users/adi/.oh-my-zsh"
+export ZSH="/Users/hugh/.oh-my-zsh"
 
 export GOPATH=$HOME
 export GO111MODULE=on
 export GOPRIVATE="github.com/Shopify/*"
 export CGO_ENABLED=0
 
-export EDITOR=nano
+export EDITOR=vim
 export PATH=~/.npm-global/bin:$GOPATH/bin:/usr/local/sbin:$PATH
 
 export DOCKER_BUILDKIT=1
