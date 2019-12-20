@@ -10,7 +10,6 @@ tap 'homebrew/cask-drivers' || true
 tap 'homebrew/cask-fonts' || true
 tap 'homebrew/cask-versions' || true
 tap 'homebrew/core' || true
-tap 'lautis/refined-github-safari' || true
 
 # fonts
 cask 'font-meslo-lg'
@@ -68,32 +67,13 @@ brew 'yq'
 brew 'zsh'
 
 # applications
-cask '1password'
 cask 'aerial'
 cask 'appcleaner'
-cask 'beardedspice'
-cask 'docker-edge'
-cask 'firefox'
 cask 'go2shell'
-cask 'goland'
-cask 'google-cloud-sdk'
-cask 'gpg-suite'
-cask 'iina'
 cask 'iterm2'
 cask 'ngrok'
 cask 'open-in-code'
 cask 'slack'
 cask 'spectacle'
 cask 'visual-studio-code'
-cask 'yubico-authenticator'
 cask 'zoomus'
-cask 'lautis/refined-github-safari/refined-github-safari'
-
-# appstore apps
-mas 'Backtrack', id: 1477089520
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Twitter', id: 1482454543
-mas 'Wipr', id: 1320666476
-mas 'WireGuard', id: 1451685025
