@@ -3,7 +3,7 @@
 	email = hughxie@outlook.com
 
 [core]
-	editor = nano
+	editor = code
 	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol, space-before-tab
 	excludesfile = ~/.gitignore
 	commitGraph = true
