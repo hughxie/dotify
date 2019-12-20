@@ -69,6 +69,7 @@ brew 'zsh'
 # applications
 cask 'aerial'
 cask 'appcleaner'
+cask 'google-chrome'
 cask 'go2shell'
 cask 'iterm2'
 cask 'ngrok'
