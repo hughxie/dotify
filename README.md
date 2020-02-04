@@ -5,12 +5,12 @@
 Things not automated yet:
 
 - macOS Settings
-  - `defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1`
+  - `defaults write com.aple.SoftwareUpdate ScheduleFrequency -int 1`
   - `defaults write -g PMPrintingExpandedStateForPrint -bool TRUE`
   - More things via GUI
 
 - Finder Preferences:
-  - `defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES; killall Finder`
+  - `defaults write com.aple.finder _FXShowPosixPathInTitle -bool YES; killall Finder`
   - More things via GUI
 
 - Safari Preferences
@@ -23,6 +23,6 @@ Things not automated yet:
 
 - iTerm Preferences
 
-- Install Hangouts Electron Wrapper
+- Install Hangouts Electron Wraper
 
 - Probably more

@@ -6,7 +6,7 @@
 *.so
 *.pyc
 *.aux
-*.app
+*.ap
 *.framework
 
 # Archives

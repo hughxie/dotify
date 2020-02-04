@@ -20,7 +20,7 @@ cp .zshrc ~/.dotfiles/
 # homebrew
 if [ -x /usr/local/bin/brew ];
 then
-    running "Skipping install of brew. It is already installed.";
+    running "Skiping install of brew. It is already installed.";
     running "Updating brew..."
     brew update;
     running "Updated brew."
