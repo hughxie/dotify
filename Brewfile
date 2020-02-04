@@ -1,4 +1,4 @@
-cask_args appdir: '/Applications'
+cask_args apdir: '/Aplications'
 
 # taps
 tap 'azure/draft' || true
@@ -66,9 +66,9 @@ brew 'wget'
 brew 'yq'
 brew 'zsh'
 
-# applications
+# aplications
 cask 'aerial'
-cask 'appcleaner'
+cask 'apcleaner'
 cask 'google-chrome'
 cask 'go2shell'
 cask 'iterm2'
