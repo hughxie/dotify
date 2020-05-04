@@ -10,7 +10,7 @@
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
 [web]
-	browser = chrome
+	browser = brave
 
 [rerere]
 	enabled = 1
@@ -27,7 +27,7 @@
 
 [diff]
 	renames = copies
-	compactionHeuristic = true
+	compactionHeuri:stic = true
 	algorithm = patience
 
 [protocol]

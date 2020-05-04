@@ -29,7 +29,7 @@ brew 'go'
 brew 'node'
 brew 'python'
 brew 'ruby-build'
-brew 'rbenv'
+# brew 'rbenv'
 brew 'rust'
 cask 'java'
 
@@ -80,23 +80,12 @@ cask '1password'
 cask 'alacritty'
 cask 'aerial'
 cask 'appcleaner'
-cask 'beardedspice'
-cask 'docker-edge'
-cask 'google-chrome'
-cask 'go2shell'
-cask 'google-cloud-sdk'
-cask 'gpg-suite'
+cask 'docker'
+cask 'brave-browser'
 cask 'iterm2'
 cask 'ngrok'
 cask 'open-in-code'
 cask 'rectangle'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'yubico-authenticator'
 cask 'zoomus'
-
-# appstore apps
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Pages', id: 409201541
-mas 'Wipr', id: 1320666476

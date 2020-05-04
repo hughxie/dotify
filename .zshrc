@@ -1,7 +1,7 @@
 # shellcheck disable=SC2034
-DEFAULT_USER=hugh
+DEFAULT_USER=hughxie
 
-export ZSH="/Users/hugh/.oh-my-zsh"
+export ZSH="/Users/hughxie/.oh-my-zsh"
 
 export GOPATH=$HOME
 export GO111MODULE=on
@@ -37,16 +37,6 @@ plugins=(
 # shellcheck disable=SC1090
 source $ZSH/oh-my-zsh.sh
 
-# shellcheck disable=SC1091
-if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc' ]; then
-  source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc';
-fi
-
-# shellcheck disable=SC1091
-if [ -f '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]; then
-  source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc';
-fi
-
 # shellcheck disable=SC1090
 for file in ~/.dotfiles/zsh_files/.{aliases,functions}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
@@ -61,4 +51,3 @@ if [ -x "$(command -v rbenv)" ]; then
   eval "$(rbenv init -)"
 fi
 
-export KUBECONFIG=/Users/adi/.kube/config.shopify.cloudplatform:/Users/adi/.kube/config
